@@ -1,0 +1,18 @@
+OMNeT++ Experiment 23
+Title: Cellular Protocol Analysis with Wireshark (GSM, GTP, S1AP, NGAP)
+
+Description:
+Generates a simplified protocol event sequence for cellular control and tunnel messages for protocol-analysis learning.
+
+Project source files:
+- Experiment_23.ned  (NED network and simple module)
+- Experiment_23.cc   (C++ simulation module)
+- omnetpp.ini           (simulation configuration)
+
+Run in an installed OMNeT++ project:
+  opp_makemake
+  make
+  ./Experiment23Network -u Cmdenv -f omnetpp.ini
+
+NOTE: Graph and console images in this folder are prepared demonstration artifacts.
+Run this project in OMNeT++ to obtain environment-specific simulation logs and vectors.

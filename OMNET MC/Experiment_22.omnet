@@ -1,0 +1,18 @@
+OMNeT++ Experiment 22
+Title: Mobility and Handover in a Multi-Cell 5G/LTE Network
+
+Description:
+Simulates a moving UE across three cells; handover is triggered when the target cell signal exceeds serving signal by a threshold.
+
+Project source files:
+- Experiment_22.ned  (NED network and simple module)
+- Experiment_22.cc   (C++ simulation module)
+- omnetpp.ini           (simulation configuration)
+
+Run in an installed OMNeT++ project:
+  opp_makemake
+  make
+  ./Experiment22Network -u Cmdenv -f omnetpp.ini
+
+NOTE: Graph and console images in this folder are prepared demonstration artifacts.
+Run this project in OMNeT++ to obtain environment-specific simulation logs and vectors.
